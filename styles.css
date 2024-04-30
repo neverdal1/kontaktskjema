@@ -6,6 +6,7 @@
   align-items: center;
 }
 .step {
+  border: 5px solid black;
   height: 500px;
   width: 700px;
   display: flex;
@@ -23,13 +24,29 @@
   background-color: rgb(6, 132, 243);
 }
 
-.inputContainer {
-  width: inherit;
+.inputContainer {  
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  border: 2px black solid;
+  width: 200px; 
+  
 }
 
-.buttonDiv {
+.inputName{
+  width: 190px;
+
+}
+.font{
+  font-size: 25px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.buttonDiv{
   width: inherit;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
+
+
