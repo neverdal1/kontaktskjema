@@ -1,3 +1,4 @@
 console.log("hello");
-import nextButton from "./eventListner";
-console.log(nextButton);
+import {nextButton, previousButton}from "./eventListner.js";
+
+
